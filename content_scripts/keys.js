@@ -754,7 +754,7 @@ var KeyHandler = {
                             'CompletionResult' ]();
         }
         break;
-      case '<C-p>':
+      case '<C-k>':
         if (Command.type === 'action' && settings.cncpcompletion) {
           event.preventDefault();
           Mappings.actions.previousCompletionResult();
